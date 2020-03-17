@@ -1,15 +1,15 @@
 body{
     width: 80%;
     margin-left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#top{
-    background-color: aqua;
+#top {
+    background-color: #06a0a0;
     margin-bottom:10px;
+    height: 30px;
 }
 a{
-    list-style-type: none;
     text-decoration: none;
-    
 }
 img{
     width: 400px;
@@ -18,9 +18,47 @@ img{
 }
 #flot{
     padding-left: 420px;
+    
 }
-
 #clear{
     clear: left;
+    
 }
-#clear
+.hob{
+    border-bottom: 1px dotted;
+    padding-bottom: 10px;
+}
+.exp{
+    float: left;
+}
+.exp1{
+    padding-left: 100px;
+    padding-top: 1px;
+    border-bottom: 1px dotted;
+    padding-bottom: 15px;
+}
+.skill{
+    float: left;
+}
+.skill1{
+    padding-left: 130px;
+    padding-top: 1px;
+    border-bottom: 1px dotted;
+    padding-bottom: 15px;
+}
+.foot{
+    padding-top: 15px;
+   margin-left: 600px;
+    height: 60px;
+}
+.foot img{  
+    width: 50px;
+    height: 45px;
+}
+.foot1{
+    padding-top: 15px;
+    border-top: 1px dotted;
+    text-align: center;
+    border-bottom: 1px dotted;
+    padding-bottom: 15px;
+}
