@@ -1,4 +1,5 @@
 body{
+    padding: 0px;
     width: 80%;
     margin-left: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,8 +20,8 @@ a{
 }
 #main{
     padding: 0;
-    border-bottom: 1px dotted;
-    padding-bottom: 150px;
+    border-bottom: 1px s;
+    padding-bottom: 15px;
 }
 img{
     border-radius: 500px;
@@ -28,35 +29,61 @@ img{
     height: 300px;
     float: left;
 }
+.info{
+    
+}
 #flot{
     padding-left: 420px;
     
 }
 #clear{
-    clear: left;
+    clear: left;    
+}
+label{
+    padding-top: 100px;
+}
+input{
     
+    
+    font-size: 20px;
+    width: 25em;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
-.hob{
-    border-bottom: 1px dotted;
-    padding-bottom: 10px;
+select{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 25em;
+    height: 30px;
+    font-size: 20px;
 }
-.exp{
-    float: left;
+textarea{
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 25em;
+    height: 150px;
+    font-size: 20px;
 }
-.exp1{
-    padding-left: 100px;
-    padding-top: 1px;
+.ln input{
+    margin-left: 103px;
+}
+.mail input{
+    margin-left: 132px;
+}
+.pass input{
+    margin-left: 113px;
+}
+.selc select{
+    margin-left: 123px;
+}
+.comm textarea{
+    margin-left: 110px;
+}
+.subBtn{
     border-bottom: 1px dotted;
     padding-bottom: 15px;
-}
-.skill{
-    float: left;
-}
-.skill1{
-    padding-left: 130px;
-    padding-top: 1px;
-    border-bottom: 1px dotted;
-    padding-bottom: 15px;
+    padding-left: 80px;
 }
 .foot{
     padding-top: 10px;
