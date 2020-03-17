@@ -1,0 +1,26 @@
+body{
+    width: 80%;
+    margin-left: 150px;
+}
+#top{
+    background-color: aqua;
+    margin-bottom:10px;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+img{
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+#flot{
+    padding-left: 420px;
+}
+
+#clear{
+    clear: left;
+}
+#clear
