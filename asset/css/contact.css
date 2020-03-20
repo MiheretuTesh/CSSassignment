@@ -1,94 +1,110 @@
 body{
-    padding: 0px;
-    width: 80%;
-    margin-left: 150px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #262626; 
 }
 .top{
+    width: 80%;
     margin: 70px auto 0;
     background-color: #06a0a0;
-    height: 40px;
+    height: 30px;
     padding-top: 15px;
+    
 }
 .top a{
-    font-size: 20px;
-    margin-bottom:10px;
+    font-size: 25px;
+    padding-top: 15px;
+    margin-bottom:0px;
     height: 30px;
-    padding-left: 15px;
+    padding-left: 20px;
+    margin-right: 0;
+    padding-right: 20px;
 }
 a{
     text-decoration: none;
+    color: bisque;
 }
-#main{
-    padding: 0;
-    border-bottom: 1px s;
-    padding-bottom: 15px;
+.top a:visited{
+    background-color: darkorange;
 }
-img{
-    border-radius: 500px;
-    width: 400px;
-    height: 300px;
-    float: left;
+.top a:hover{
+    background-color: rgb(232, 109, 81);
 }
-.info{
+a:active{
+    background-color: rgb(247, 2, 2);
+}
+.main{
+    width: 80%;
+
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: center;
+    background-color:white;
+
+
+}
+.main>div {
     
-}
-#flot{
-    padding-left: 420px;
-    
-}
-#clear{
-    clear: left;    
-}
-label{
-    padding-top: 100px;
-}
-input{
-    
-    
+    width: 454;
+    height: 10%;
+    margin: 30px;
+    margin-left:50px ;
+    text-align: center;
+    line-height: 50px;
     font-size: 20px;
-    width: 25em;
-    height: 30px;
+    margin-bottom: 3%;
+    
+  }
+input{
+    font-size: 20px;
+    width: 20em;
+    height: 25px;
     margin-left: 100px;
     margin-top: 20px;
 }
 select{
     margin-top: 20px;
     margin-left: 100px;
-    width: 25em;
-    height: 30px;
+    width: 20em;
+    height: 25px;
     font-size: 20px;
 }
 textarea{
     margin-top: 20px;
     margin-left: 90px;
-    width: 25em;
+    width: 20em;
     height: 150px;
     font-size: 20px;
 }
+.fn input{
+    margin-left: 50px;
+}
 .ln input{
-    margin-left: 103px;
+    margin-left: 50px;
 }
 .mail input{
-    margin-left: 132px;
+    margin-left: 80px;
 }
 .pass input{
-    margin-left: 113px;
+    margin-left: 59px;
 }
 .selc select{
-    margin-left: 123px;
+    margin-left: 69px;
 }
 .comm textarea{
-    margin-left: 110px;
+    margin-left: 60px;
+}
+.subBtn input{
+    width: 20%;
 }
 .subBtn{
-    border-bottom: 1px dotted;
     padding-bottom: 15px;
-    padding-left: 80px;
+    padding-left: 40px;
 }
+
+
 .foot{
+    
     padding-top: 10px;
-   margin-left: 600px;
+    margin-left: 600px;
     height: 40px;
 }
 .foot img{  
@@ -101,4 +117,10 @@ textarea{
     text-align: center;
     border-bottom: 1px dotted;
     padding-bottom: 10px;
+}
+.footer{
+    border-top: 1px dotted;
+    width:80%;
+    margin: 0 auto 50px;
+    background: white;
 }

@@ -1,9 +1,12 @@
 body{
+    background: #262626;}
+.container{
+    margin: auto;
+    background: white;
     width: 80%;
-    margin-left: 10%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+ }
 .top{
+    width: 80%;
     margin: 70px auto 0;
     background-color: #06a0a0;
     height: 30px;
