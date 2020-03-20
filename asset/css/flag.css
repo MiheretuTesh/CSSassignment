@@ -283,21 +283,6 @@ body{
 }
 
 /* Cameroon */
-/* .cameroon{
-    background-color: red;
-    width: 13.33%;
-    height: 50%;
-    position: relative;
-}
-.cameroon:before{
-    content:"";
-    width: 13.33%;
-    height: 50%;
-    background-color: #009246;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
 
 .CAM{
     padding-top: 20px;
@@ -333,6 +318,13 @@ body{
     height: 60em;
     border:1x solid #aaa;
     background-color: yellow;
+}
+.star_cm{
+    font-size: 30em;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+    color: yellow;
 }
 
 
