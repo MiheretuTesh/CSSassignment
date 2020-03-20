@@ -5,6 +5,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .top{
+    margin: 70px auto 0;
     background-color: #06a0a0;
     height: 40px;
     padding-top: 15px;

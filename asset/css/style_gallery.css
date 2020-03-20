@@ -1,29 +1,107 @@
 body{
-    width: 80%;
-    margin: auto;
-    border: 1px solid;
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
 }
-h3{
-    text-transform: uppercase;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    border-bottom: solid 1px black;
+.top{
+    width: 80%;
+    margin: 70px auto 0;
+    background-color: #06a0a0;
+    height: 30px;
+    padding-top: 15px;
     
 }
-.pictures{
+.top a{
+    font-size: 25px;
+    padding-top: 15px;
+    margin-bottom:0px;
+    height: 30px;
+    padding-left: 20px;
+    margin-right: 0;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+.top a:visited{
+    background-color: darkorange;
+}
+.top a:hover{
+    background-color: rgb(232, 109, 81);
+}
+a:active{
+    background-color: rgb(247, 2, 2);
+}
+
+.main{
     width: 80%;
-    margin: auto;
+    min-height: 500px;
+    background: #fff;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-img{
 
-    float: left;
+.main .box{
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    position: relative;
     width: 30%;
-    height: 250px;
+    height: 400px;
+    background:rgb(0, 255, 76) ;
+    
+    box-sizing: border-box;
+    display: inline-block;
+}
+.main .box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+.main .box .imgBox img{
+    max-width: 100%;
+    height:400px;
+    transition: transform 2s;
+}
+.main .box:hover .imgBox img{
+    transform: scale(1.2);
+
+}
+.main .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0,0.8);
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.main .box:hover .details{
+    transform: scaleX(1);
+
+}
+.main .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: rgb(241, 188, 188);
+}
+.main .box .details .content h3{
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+    color: rgb(0, 255, 76);
+}
+.main .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    rgb(241, 188, 188)
 }
 
-#clear {
-    border-bottom: 1px solid;
-    clear: left;
-}
 
