@@ -1,0 +1,83 @@
+#tictactoe{
+    width: 912px;
+    height: 912px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+/* cells */
+#tictactoe>div:nth-child(1){
+    width: 300px;
+    height:300px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-color: black;
+    float: left;
+}
+#tictactoe>div:nth-child(2){
+    width: 300px;
+    height: 300px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-color: black;
+    float: left;
+}
+#tictactoe>div:nth-child(3){
+    width: 300px;
+    height: 300px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: black;
+    float: left;
+}
+#tictactoe>div:nth-child(4){
+    width: 300px;
+    height: 300px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-top: 2px solid;    border-color: black;
+    float: left;
+}
+#tictactoe>div:nth-child(5){
+    width: 300px;
+    height: 300px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-color: black;
+    float: left;
+}
+#tictactoe>div:nth-child(6){
+    width: 300px;
+    height: 300px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;    border-color: black;
+    float: left;
+}
+#tictactoe>div:nth-child(7){
+    width: 300px;
+    height: 300px;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    border-color: black;
+    float:left;
+}
+#tictactoe>div:nth-child(8){
+    width: 300px;
+    height: 300px;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    border-left: 2px solid;    border-color: black;
+    float:left;
+}
+#tictactoe>div:nth-child(9){
+    width: 300px;
+    height: 300px;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-color: black;
+    padding: 0px;
+    float: left;
+}
