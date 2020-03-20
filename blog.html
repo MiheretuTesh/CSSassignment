@@ -19,8 +19,10 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="blog.html">Blog</a></li>
+                <li><a href="my_work.html">My Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -31,22 +33,64 @@
             </p>
 
             <article>
-                <div class="box-1">
-                    <p>
-                        <strong>Pixels</strong>  are absolute length. Absolute length are fixed and a length expressed in any of these
-                            will appear exactly that size. <br>
-                            em and rem 
-                    </p>
+                <div class="container-1"> 
+                    <div class="box-1">
+                        <h4>Percent(%)</h4> <br>
+                        <p>	Sets the font-size to a percent of  the parent element's font size.
+                            The value that the percentage 
+                            is relative to can be either a 
+                            value from the element’s parent or from 
+                            another property of the element itself.  
+                            percentage values don’t cascade as percentages, 
+                            only calculated (computed) 
+                            values are inherited.  
+                        </p>
+                    </div>
+                    <div class="box-2">
+                        <h4>REM</h4>
+                        <p>
+                            rem values are 
+                            relative to the root html element, 
+                            not to the parent element. 
+                            That is, If font-size of the root element is 16px 
+                            then 1 rem = 16px for all elements. 
+                            If font-size is not explicitly defined in root 
+                            element then 1rem will be equal to the default font-size 
+                            provided by the browser (usually 16px).
+                        </p>
+                    </div>
+                    <div class="box-3">
+                        <h4>EM</h4>
+                        <p>
+                            em is relative to the font-size of its 
+                            direct or nearest parent. <br>
+                            It inherits 
+                            and scales relative to his parent.
+                            <br>When em units are declared on child 
+                            elements that don’t have a font-size defined, 
+                            they will inherit their font-size from their parent, 
+                            or from another ancestor element, possibly going all 
+                            the way back to the root element on the document.
+                        </p>
+                    </div>
                 </div>
-                <div class="box-2">
-
-                </div>
-                <div class="box-3">
-
-                </div>
-            </article>
-            <div class="box-4">
+                <div class="box-4">
+                    <div>
+                        <p>Yes it does matter to use. Althougn There is 
+                            similarity between this font style em and percent element, there is 
+                            bit difference. EM works according to the font-size of the browser
+                            , percent work according to the font-size of the its conainer, so
+                            using both could be the same. On the other hand REM works on according to
+                            the size of the html file(window), this could be helpful but is could lose some
+                            attraction because all tags have to be assigned according to the root.
+                            
+                        </p>
+                    </div>
+                    
+                   
             </div>
+            </article>
+            
         </section>
             <!-- second post -->
         <section>
@@ -54,12 +98,15 @@
             </p>
             <article>
                 <div class="box-21">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus accusantium nesciunt, illo distinctio neque quod exercitationem facere molestiae ullam, deleniti, quo laboriosam amet a repudiandae. Incidunt ab ipsam voluptate?
-                    </p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cupiditate impedit enim est! Repellat repellendus laboriosam dicta dolor accusamus reiciendis earum fuga dignissimos deserunt.
-                    </p>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus accusantium nesciunt, illo distinctio neque quod exercitationem facere molestiae ullam, deleniti, quo laboriosam amet a repudiandae. Incidunt ab ipsam voluptate?
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cupiditate impedit enim est! Repellat repellendus laboriosam dicta dolor accusamus reiciendis earum fuga dignissimos deserunt.
+                        </p>
+                    </div>
+                    
                 </div>
             </article>
             
@@ -71,15 +118,65 @@
             <article>
                 <div class="boxs">
                     <div class="box-31">
+                        <h4>CSS3 Updates from previous Version</h4>
+                        <br>
+                        <p>1. CSS 3 Selectors</p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus accusantium nesciunt, illo distinctio neque quod exercitationem facere molestiae ullam, deleniti, quo laboriosam amet a repudiandae. Incidunt ab ipsam voluptate?
+                            In addition to the selectors that were available 
+                            in CSS2, CSS 3 introduces some new selectors. 
+                            Using these selectors you can choose DOM elements 
+                            based on their attributes. So you don't need to 
+                            specify classes and IDs for every element. Instead, 
+                            you can 
+                            utilize the attribute field to style them.
                         </p>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cupiditate impedit enim est! Repellat repellendus laboriosam dicta dolor accusamus reiciendis earum fuga dignissimos deserunt.
+                            2. CSS 3 Rounded Corners <br>
                         </p>
+                        <p>
+                            CSS 3 addresses this problem by introducing 
+                            the border-radius property, which gives you the 
+                            same rounded-corner effect and you don't have to 
+                            write all the code. Here are examples for displaying 
+                            rounded corners in different places of a website.
+                        </p>
+                        <p>
+                            3. CSS 3 Border Image <br>
+                        </p>
+                        <p>
+                            Another exciting feature in CSS 3 is the ability to swap out a border with an image. The property border-image allows you to specify an image to 
+                            display instead ofa plain solid-colored border.
+                        </p>
+                        
                     </div>
                     <div class="box-32">
-    
+                        <p>
+                            4. CSS 3 Box Shadow <br>
+                        </p>
+                        <p>
+                            A box shadow allows you to create a drop shadow for an element. 
+                            Usually this effect is achieved using a repeated image around 
+                            the element. However, with the property box-shadow this can be 
+                            achieved by writing a single line of CSS code.
+                        </p><br>
+                        <p>5. CSS 3 Text Shadow</p>
+                        <p>
+                            The new text-shadow property allows you to 
+                            add drop shadows to the text on a webpage.
+                             Prior to CSS 3, this would be done by either 
+                             using an image or duplicating a text element and 
+                             then positioning it. A similar property called 
+                            box-shadow is also available in CSS 3.
+                        </p><br>
+                        <p>7. CSS 3 RGBA: Color, Now with Opacity</p>
+                        <p>
+                            The RGB property in CSS is used to set colors 
+                            for different elements. CSS 3 introduces a 
+                            modification and added opacity manipulation to
+                             this property. RGB has been transformed to RGBA 
+                             (Red Green Blue Alpha channels), which simplifies 
+                            how you control the opacity of elements.
+                        </p>
                     </div>
                 </div>
                 

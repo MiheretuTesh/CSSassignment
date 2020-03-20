@@ -1,42 +1,62 @@
 body{
     width: 80%;
-    margin-left: 150px;
+    margin-left: 10%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .top{
     background-color: #06a0a0;
-    height: 40px;
+    height: 30px;
     padding-top: 15px;
+    
 }
 .top a{
-    font-size: 20px;
-    margin-bottom:10px;
+    font-size: 25px;
+    padding-top: 15px;
+    margin-bottom:0px;
     height: 30px;
-    padding-left: 15px;
+    padding-left: 20px;
+    margin-right: 0;
+    padding-right: 20px;
 }
 a{
     text-decoration: none;
+    color: bisque;
 }
+.top a:visited{
+    background-color: darkorange;
+}
+.top a:hover{
+    background-color: rgb(232, 109, 81);
+}
+a:active{
+    background-color: rgb(247, 2, 2);
+}
+
 #main{
     padding: 0;
     border-bottom: 1px dotted;
     padding-bottom: 150px;
 }
+.img1{
+    margin: 30px;
+}
 img{
-    border-radius: 500px;
-    width: 400px;
-    height: 300px;
+    border-radius: 50%;
+    width: 28%;
+    height: 20em;
     float: left;
 }
 #flot{
-    padding-left: 420px;
+    padding-left: 29%;
+    margin: 10px 30px;
     
 }
 #clear{
     clear: left;
     
 }
-.hob{
+.hobby{
+    border-top: 1px dotted;
     border-bottom: 1px dotted;
     padding-bottom: 10px;
 }

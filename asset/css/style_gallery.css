@@ -1,6 +1,6 @@
 body{
     width: 80%;
-    margin-left:150px;
+    margin: auto;
     border: 1px solid;
 }
 h3{
@@ -9,13 +9,17 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     border-bottom: solid 1px black;
-    padding-left: 0px ;
+    
+}
+.pictures{
+    width: 80%;
+    margin: auto;
 }
 img{
+
     float: left;
-    width: 250px;
+    width: 30%;
     height: 250px;
-    margin: 35px;
 }
 
 #clear {
