@@ -6,7 +6,7 @@
   }
 
 body{
-    background-color: white;
+    background-color: #262626;
     /* border: 10px lightgrey solid;   solid line or other is necessary */
     margin-top: 10px;
         /* padding is space between the border and the element*/
@@ -14,7 +14,7 @@ body{
 #main{
     margin: auto;
     width: 80%;
-    background-color: darkgray;
+    background-color: white;
     height: 100%;
 }
 
@@ -29,33 +29,36 @@ header{
     right:0; */
     
 }
-nav > ul > li{
+.top{
+    width: 80%;
     margin: 70px auto 0;
-    display: inline-block;              /*flex reading assignment */
-    padding: 10px 3px;
-    list-style-type: none;
-    font-size: 1.5em;
+    background-color: #06a0a0;
+    height: 30px;
+    padding-top: 15px;
+    
 }
-nav > ul > li > a{
-    
+.top a{
+    font-size: 25px;
+    padding-top: 15px;
+    margin-bottom:0px;
+    height: 30px;
+    padding-left: 20px;
+    margin-right: 0;
+    padding-right: 20px;
+}
+a{
     text-decoration: none;
-    
-}                  
-/* nav > ul > li > a:link{
-    background-color: chartreuse;
-
-} */
-nav > ul > li > a:visited{
-    background-color:crgb(100, 100, 0)
-} 
-nav > ul > li > a:hover{
-    background-color: rgb(190, 121, 255);
-
-} 
-nav > ul > li > a:active{
-    background-color: gray;
-
-}           /*heover coes after link, 
+    color: bisque;
+}
+.top a:visited{
+    background-color: darkorange;
+}
+.top a:hover{
+    background-color: rgb(232, 109, 81);
+}
+a:active{
+    background-color: rgb(247, 2, 2);
+}          /*heover coes after link, 
 link
 visited
 hover
@@ -201,4 +204,26 @@ h4{
 p{
     font-size: 1.2em;
     line-height: 120%;
+}
+.foot{
+    
+    padding-top: 10px;
+    margin-left: 600px;
+    height: 40px;
+}
+.foot img{  
+    width: 30px;
+    height: 30px;
+}
+.foot1{
+    padding-top: 10px;
+    border-top: 1px dotted;
+    text-align: center;
+    border-bottom: 1px dotted;
+    padding-bottom: 10px;
+}
+.footer{
+    border-top: 1px dotted;
+    margin: 0 auto 50px;
+    background: transparent;
 }

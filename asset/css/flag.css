@@ -17,54 +17,33 @@ body{
 }
 /* Ethiopia */
 .top{
-    background-color: white;
+    background-color:  rgba(190, 232, 252, 0.575);
     padding-top: 20px;
 }
-.ETH{
+.ENG{
     padding-top: 20px;
     margin-bottom: 20px;
     background-color: lemonchiffon;
     font-size: 25px;
     text-align: center;
 }
-.flag3{
+.england{
     margin: auto;
-    font-size: 5px;
-    width: 60%;
-    height: 60em;
-    border:1x solid #aaa;
+    width: 600px;
+    height: 400px;
+    background-image: linear-gradient(to
+    bottom, white 46.36%,red 36.36%,
+    red 63.63%, white 63.63%);
+    border: 1px solid black;
 }
-.ethiopia{
-    height: 33.33%;
-    box-sizing: border-box;
+.vert{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to
+     right,transparent 47.27%, red 30.27%, red 60.44%,
+     transparent 50%);
 }
-.top3{
-    background-color: green;
-}
-.middle3{
-    background-color: yellow;
-}
-.bottom3{
-    background-color: red;
-}
-.logo3{
-    margin: auto;
-    position: relative;
-    margin-left: 220px;
-    top: -25%;
-    width: 150px;
-    height: 150px;
-    background-color:rgb(22, 22, 245);
-    border-radius: 50%;
-}
-.lg1{
-    margin: auto;
-    color: yellow;
-    position: relative;
-    top: -45px;   
-    left: 7%;
-    font-size: 160px;
-}
+
 /* Finnland */
 .FIN{
     padding-top: 20px;
@@ -475,7 +454,6 @@ body{
     margin-right: 200px;
     margin-top: 100px;    
     background-color: yellow;
-    padding: 0%;
     position: relative;
     margin-bottom: 100px;
   }

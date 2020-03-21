@@ -1,5 +1,7 @@
 body{
     background: #262626; 
+    color:white;
+    
 }
 .top{
     width: 80%;
@@ -32,15 +34,22 @@ a:active{
     background-color: rgb(247, 2, 2);
 }
 .main{
-    width: 80%;
+    width: 100%;
 
     margin: 70px auto 0;
     display: flex;
     justify-content: center;
-    background-color:white;
-
-
 }
+.contain{
+    background-image: url(../image/img2.jpg) ;
+    width: 80%;
+    margin: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
 .main>div {
     
     width: 454;
@@ -49,7 +58,7 @@ a:active{
     margin-left:50px ;
     text-align: center;
     line-height: 50px;
-    font-size: 20px;
+    font-size: 1.5em;
     margin-bottom: 3%;
     
   }
@@ -99,8 +108,6 @@ textarea{
     padding-bottom: 15px;
     padding-left: 40px;
 }
-
-
 .foot{
     
     padding-top: 10px;
@@ -120,7 +127,7 @@ textarea{
 }
 .footer{
     border-top: 1px dotted;
-    width:80%;
+    width:100%;
     margin: 0 auto 50px;
-    background: white;
+    background: gray;
 }

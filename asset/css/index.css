@@ -1,9 +1,11 @@
 body{
-    background: #262626;}
+    background: #262626;
+}
 .container{
     margin: auto;
     background: white;
     width: 80%;
+    margin-top: 5%;
  }
 .top{
     width: 80%;
@@ -53,38 +55,61 @@ img{
 #flot{
     padding-left: 29%;
     margin: 10px 30px;
+    font-size: 20px;
     
 }
 #clear{
     clear: left;
     
 }
-.hobby{
-    border-top: 1px dotted;
-    border-bottom: 1px dotted;
-    padding-bottom: 10px;
+section>h3{
+    text-align: center;
+    font-size: 30px;
+}
+.experiance{
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+    width: 20%;
+    margin: auto;
+    margin-top: 5em;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .7);
 }
 .exp{
+    text-align: center;
     float: left;
 }
 .exp1{
     padding-left: 100px;
     padding-top: 1px;
-    border-bottom: 1px dotted;
     padding-bottom: 15px;
+}
+.skills{
+    width: 30%;
+    margin: auto;
+    padding: 10%;
+    font-size: 20px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .7);
+}
+.skills h3{
+    text-align: center;
 }
 .skill{
     float: left;
+    margin-left: 100px;
 }
 .skill1{
     padding-left: 130px;
     padding-top: 1px;
-    border-bottom: 1px dotted;
     padding-bottom: 15px;
+    margin-left: 150px;
+
+    
 }
 .foot{
-    padding-top: 10px;
-   margin-left: 600px;
+    padding-top: 100px;
+    padding-top:    ;
+    margin-left: 600px;
     height: 40px;
 }
 .foot img{  
@@ -97,4 +122,52 @@ img{
     text-align: center;
     border-bottom: 1px dotted;
     padding-bottom: 10px;
+}
+
+section{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 50px auto;
+    
+}
+.box{
+    position: relative;
+    box-sizing: border-box;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.6);
+    display: flex;
+}
+.left{
+    box-sizing: border-box;
+    height: 100%;
+    width: calc(50% - 25px);
+    background: #000;
+    color: white;
+    padding: 15px;
+}
+li{
+    list-style: disc;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right{
+    box-sizing: border-box;
+    height: 100%;
+    width: calc(50% + 25px);
+    background: #000;
+    border-left: 50px solid #000;
+    border-bottom: 270px solid transparent;
+    background-image: url("https://images.pexels.com/photos/2413089/pexels-photo-2413089.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: -100px -15px;
+}
+section .box:nth-child(1) .right{
+    background-image: url("https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: -150px -15px;
+}
+section .box:nth-child(3) .right{
+    background-image: url("https://images.pexels.com/photos/1337247/pexels-photo-1337247.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: -150px -15px;
 }
